@@ -9,12 +9,12 @@ from time import sleep
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
-source_dir = "/Users/prabhjotsingh/Downloads"
-dest_dir_sfx = "/Users/prabhjotsingh/Downloads/SFX"
-dest_dir_music = "/Users/prabhjotsingh/Downloads/Music"
-dest_dir_video = "/Users/prabhjotsingh/Downloads/Videos"
-dest_dir_image = "/Users/prabhjotsingh/Downloads/Images"
-dest_dir_documents = "/Users/prabhjotsingh/Downloads/Documents"
+source_dir = "<path>"
+dest_dir_sfx = "<path>/SFX"
+dest_dir_music = "<path>/Music"
+dest_dir_video = "<path>/Videos"
+dest_dir_image = "<path>/Images"
+dest_dir_documents = "<path>/Documents"
 
 dirs_array = [dest_dir_sfx, dest_dir_music, dest_dir_video, dest_dir_image, dest_dir_documents]
               
